@@ -6,7 +6,7 @@
 
 **The AI-powered desktop analytics studio · 🇮🇳 Proudly Made in India**
 
-[⬇ **Download the latest version for Windows**](https://github.com/Priyanshu-ux712/atars-releases/releases/latest/download/ATARS-Setup.exe)
+[⬇ **Download the latest version for Windows**](https://github.com/Priyanshu-ux712/ATARS_WEBSITE_APP_DOWNLOAD/releases/latest/download/ATARS-Setup.exe)
 
 [Website](https://atars.netlify.app) · [FAQ](https://atars.netlify.app/faq.html) · [Privacy](https://atars.netlify.app/privacy.html) · [Contact](https://atars.netlify.app/contact.html)
 
@@ -28,7 +28,7 @@ computer**. Your data never leaves your machine. AI features are optional and us
 
 ## Download & install (Windows)
 
-1. Download **`ATARS-Setup.exe`** from the [latest release](https://github.com/Priyanshu-ux712/atars-releases/releases/latest).
+1. Download **`ATARS-Setup.exe`** from the [latest release](https://github.com/Priyanshu-ux712/ATARS_WEBSITE_APP_DOWNLOAD/releases/latest).
 2. Run it, accept the license, and finish the installer.
 3. Launch **ATARS** from the Start menu or desktop shortcut — first start takes ~20–30 s.
 
