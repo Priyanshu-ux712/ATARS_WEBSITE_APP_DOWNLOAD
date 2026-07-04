@@ -1,0 +1,31 @@
+ATARS — PROPRIETARY SOFTWARE LICENSE
+=====================================
+Copyright (c) 2026 Priyanshu Kumar. All Rights Reserved.
+
+ATARS (Automated Time-Series Analysis and Reporting System), including all source
+code, compiled binaries, algorithms, designs, logos, brand marks, documentation
+and accompanying materials (together, the "Software"), is the private,
+proprietary property of Priyanshu Kumar ("the Owner").
+
+This is NOT open-source software. No license, right, or interest of any kind is
+granted except as expressly stated in a written agreement signed by the Owner
+or in the End-User License Agreement (EULA) shipped with an official installer.
+
+WITHOUT EXPRESS WRITTEN PERMISSION FROM THE OWNER, YOU MAY NOT:
+  1. Copy, distribute, publish, sublicense, rent, lease, lend or sell the
+     Software or any part of it;
+  2. Modify, adapt, translate, or create derivative works of the Software;
+  3. Reverse engineer, decompile, disassemble, extract, or otherwise attempt
+     to derive the source code, algorithms, or internal logic of the Software;
+  4. Remove, alter, or obscure any copyright, trademark, or proprietary notice;
+  5. Use the ATARS name, logo, or brand assets.
+
+Authorized end users receive only the limited, non-exclusive, non-transferable
+right to install and run the Software as described in the EULA that accompanies
+their copy. All rights not expressly granted are reserved by the Owner.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT
+SHALL THE OWNER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+FROM THE USE OF OR INABILITY TO USE THE SOFTWARE.
+
+Made in India. For licensing enquiries: priyanshukumar9053@gmail.com

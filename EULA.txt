@@ -1,0 +1,37 @@
+ATARS — END-USER LICENSE AGREEMENT (EULA)
+==========================================
+ATARS — Automated Time-Series Analysis and Reporting System
+Copyright (c) 2026 Priyanshu Kumar. All Rights Reserved.
+
+By installing or using ATARS you agree to these terms. If you do not agree,
+do not install the software.
+
+1. LICENSE GRANT. You are granted a limited, non-exclusive, non-transferable
+   license to install and use ATARS on devices you control, for your own data
+   analysis, per the license tier you purchased (single-user or company).
+
+2. OWNERSHIP. ATARS is licensed, not sold. Priyanshu Kumar retains all right,
+   title and interest in the software, its code, algorithms, design and brand.
+
+3. RESTRICTIONS. You may NOT: copy or redistribute the software; resell,
+   rent, lease or sublicense it; modify it or create derivative works;
+   reverse engineer, decompile, disassemble or attempt to extract its source
+   code or algorithms; or use the ATARS name or logo.
+
+4. YOUR DATA. ATARS processes your data locally on your own machine. Your
+   datasets are never uploaded to the publisher. If you connect your own AI
+   API key, data you choose to analyse with AI is sent to YOUR chosen AI
+   provider under that provider's terms.
+
+5. NO WARRANTY. The software is provided "AS IS" without warranty of any
+   kind. Analytical results are provided to assist, not replace, your own
+   professional judgment.
+
+6. LIMITATION OF LIABILITY. To the maximum extent permitted by law, the
+   publisher shall not be liable for any indirect, incidental or
+   consequential damages arising from use of the software.
+
+7. TERMINATION. This license ends automatically if you breach these terms;
+   on termination you must uninstall and delete all copies.
+
+Made in India · Contact: priyanshukumar9053@gmail.com

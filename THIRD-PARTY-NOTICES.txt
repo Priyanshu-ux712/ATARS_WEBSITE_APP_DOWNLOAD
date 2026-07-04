@@ -1,0 +1,49 @@
+ATARS — THIRD-PARTY SOFTWARE NOTICES
+=====================================
+ATARS — Automated Time-Series Analysis and Reporting System
+Copyright (c) 2026 Priyanshu Kumar. All Rights Reserved.
+
+ATARS itself is proprietary, closed-source software (see LICENSE.txt / EULA.txt).
+It is built with and distributes the following open-source components, which remain
+the property of their respective authors under their own licenses. These notices are
+provided to satisfy the attribution requirements of those licenses. The full license
+text of each component is available at its project page (via PyPI: pypi.org/project/<name>).
+
+Component            Version      License
+-------------------- ------------ ------------------------------------------
+Python (CPython)     3.11         PSF License
+streamlit            1.57.x       Apache-2.0
+pandas               3.0.x        BSD-3-Clause
+numpy                2.4.x        BSD-3-Clause (and bundled: 0BSD, MIT, Zlib, CC0-1.0)
+plotly               6.7.x        MIT
+matplotlib           3.10.x       Matplotlib License (PSF-based)
+scikit-learn         1.7.x        BSD-3-Clause
+scipy                1.17.x       BSD-3-Clause
+statsmodels          0.14.x       BSD-3-Clause
+openpyxl             3.1.x        MIT
+xlrd                 2.0.x        BSD
+pyarrow              24.0.x       Apache-2.0
+duckdb               1.5.x        MIT
+SQLAlchemy           2.0.x        MIT
+PyMySQL              1.1.x        MIT
+cryptography         49.0.x       Apache-2.0 OR BSD-3-Clause
+psycopg2-binary      2.9.x        LGPL with exceptions
+python-pptx          1.0.x        MIT
+python-docx          1.2.x        MIT
+reportlab            4.1.x        BSD-3-Clause (ReportLab open-source license)
+openai (SDK)         2.x          Apache-2.0
+shap                 0.51.x       MIT
+ddgs                 9.x          MIT
+pywebview            6.2.x        BSD-3-Clause
+Pillow               11.x         MIT-CMU (HPND)
+
+Build tools (not distributed inside the app): Nuitka (Apache-2.0),
+PyInstaller (GPL with bootloader exception — permits distributing bundled
+applications under any license), Inno Setup (Inno Setup License).
+
+Fonts loaded at runtime from Google Fonts (Space Grotesk, IBM Plex Sans,
+IBM Plex Mono) are used under the SIL Open Font License 1.1.
+
+None of the above components' authors endorse or are affiliated with ATARS.
+If you believe an attribution is missing or incorrect, contact:
+priyanshukumar9053@gmail.com
