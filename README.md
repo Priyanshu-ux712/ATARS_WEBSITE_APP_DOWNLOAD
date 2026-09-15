@@ -1,54 +1,27 @@
-<div align="center">
+# ATARS 5.4.6 — GitHub release assets
 
-# ATARS — Official Downloads
+Everything in this folder, and nothing else, goes on the **v5.4.6** release at
+`github.com/Priyanshu-ux712/ATARS_WEBSITE_APP_DOWNLOAD/releases`.
 
-### Automated Time-Series Analysis and Reporting System
+| File | What it is |
+|---|---|
+| `ATARS-Setup.exe` | The download the website and the in-app updater both point at. Per-user Inno Setup installer, no admin rights. |
+| `LICENSE.txt` | Product licence. Must travel with the installer. |
+| `EULA.txt` | The agreement the installer shows and the user accepts. Must travel with the installer. |
+| `THIRD-PARTY-NOTICES.txt` | Attribution for the open-source components bundled inside the app. Required by their licences. |
+| `SHA256SUMS.txt` | The installer checksum, generated from the file in this folder. The security page tells users to compare against it. |
 
-**The AI-powered desktop analytics studio · 🇮🇳 Proudly Made in India**
+```
+2b600ebba5718ae5d1e0019a34c07fc69d5a90dc7f6a659346b732018bc5a2c5  ATARS-Setup.exe
+```
 
-[⬇ **Download the latest version for Windows**](https://github.com/Priyanshu-ux712/ATARS_WEBSITE_APP_DOWNLOAD/releases/latest/download/ATARS-Setup.exe)
+Upload `ATARS-Setup.exe` **first** — the site and the in-app updater read
+`releases/latest/download/ATARS-Setup.exe`, and a release announcing a version whose file
+is not there yet makes every installed copy fail its update check.
 
-[Website](https://atars.netlify.app) · [FAQ](https://atars.netlify.app/faq.html) · [Privacy](https://atars.netlify.app/privacy.html) · [Contact](https://atars.netlify.app/contact.html)
+The installer is **not code-signed**, so SmartScreen will warn until a certificate is in
+place. That is expected, it is documented on the site’s security page, and the checksum
+above is what a cautious user compares against.
 
-</div>
-
----
-
-## What is ATARS?
-
-ATARS turns any spreadsheet or database into a finished analysis — automatic cleaning,
-SQL, 15 chart types, statistics, AutoML with explainable AI, forecasting, business
-analytics (cohorts · RFM · decomposition), a **verified AI analyst (Aryabhata)** whose
-every figure is checked against your real computed numbers, and boardroom-ready
-PDF / Word / PowerPoint / Excel reports.
-
-It is a **real desktop app**: install once and analyse fully **offline, on your own
-computer**. Your data never leaves your machine. AI features are optional and use
-**your own API key** with the provider you choose.
-
-## Download & install (Windows)
-
-1. Download **`ATARS-Setup.exe`** from the [latest release](https://github.com/Priyanshu-ux712/ATARS_WEBSITE_APP_DOWNLOAD/releases/latest).
-2. Run it, accept the license, and finish the installer.
-3. Launch **ATARS** from the Start menu or desktop shortcut — first start takes ~20–30 s.
-
-**System requirements:** Windows 10 / 11 (64-bit) · ~850 MB free disk space · 8 GB RAM recommended.
-
-> **Linux and macOS versions are planned** — [tell us you want one](https://atars.netlify.app/contact.html).
-
-## Licensing
-
-ATARS is **proprietary commercial software** — © 2026 Priyanshu Kumar, All Rights
-Reserved. This repository hosts **installer downloads only**; it contains no source
-code. Use of the software is governed by the [`LICENSE.txt`](LICENSE.txt) and the
-End-User License Agreement ([`EULA.txt`](EULA.txt)) shown at installation.
-Open-source components bundled inside the app are credited in
-[`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt).
-
----
-
-<div align="center">
-
-**ATARS · Automated Time-Series Analysis and Reporting System · Made in India 🇮🇳**
-
-</div>
+The Microsoft Store package (`ATARS.msix`) and its `ATARS.appinstaller` feed are **not**
+here — they go to Partner Center, and they live one level up in `RELEASE-5.4.6/`.

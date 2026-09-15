@@ -47,3 +47,24 @@ IBM Plex Mono) are used under the SIL Open Font License 1.1.
 None of the above components' authors endorse or are affiliated with ATARS.
 If you believe an attribution is missing or incorrect, contact:
 priyanshukumar9053@gmail.com
+
+THE TERMINAL EDITION ("pip install atars")
+=========================================
+The terminal edition is a separate package and does not bundle the components
+above. It declares its dependencies rather than vendoring them, so pip installs
+each one from PyPI under its own licence, and each remains the property of its
+authors:
+
+  pandas, numpy           BSD-3-Clause
+  scikit-learn            BSD-3-Clause
+  statsmodels             BSD-3-Clause
+  duckdb                  MIT
+  pyarrow                 Apache-2.0
+  matplotlib              Matplotlib License (BSD-compatible)
+  reportlab               BSD-3-Clause
+  textual                 MIT
+  textual-plotext         MIT
+
+It bundles no Streamlit, no Plotly and no AI provider library of any kind.
+The "atars" package itself is proprietary, published at no charge, and is NOT
+open-source - see the LICENCE.txt file inside the package.

@@ -8,12 +8,32 @@ and accompanying materials (together, the "Software"), is the private,
 proprietary property of Priyanshu Kumar ("the Owner").
 
 This is NOT open-source software. No license, right, or interest of any kind is
-granted except as expressly stated in a written agreement signed by the Owner
-or in the End-User License Agreement (EULA) shipped with an official installer.
+granted except as expressly stated in a written agreement signed by the Owner,
+in the End-User License Agreement (EULA) shipped with an official installer, or
+in the licence file shipped inside the "atars" package on the Python Package
+Index.
+
+THE EDITIONS, AND WHICH TERMS GOVERN EACH
+-----------------------------------------
+  1. The Windows installer (ATARS-Setup.exe), from the official website or the
+     official GitHub releases page - governed by the EULA in EULA.txt.
+  2. The Microsoft Store package - the same application, governed by that same
+     EULA, and additionally by the Microsoft Standard Application License Terms
+     that apply to anything installed through the Store.
+  3. The terminal edition ("pip install atars", from the Python Package Index) -
+     a separate, deliberately limited product governed by the LICENCE.txt file
+     inside that package, NOT by EULA.txt. That licence permits installation and
+     use on any number of machines for any purpose, free of charge, and permits
+     passing the package on unmodified and in full with the licence intact.
+
+The prohibitions below apply except where one of those three licences expressly
+grants otherwise.
 
 WITHOUT EXPRESS WRITTEN PERMISSION FROM THE OWNER, YOU MAY NOT:
   1. Copy, distribute, publish, sublicense, rent, lease, lend or sell the
-     Software or any part of it;
+     Software or any part of it - except that the "atars" package on PyPI may be
+     redistributed unmodified and in full, with its licence file intact, as that
+     licence permits;
   2. Modify, adapt, translate, or create derivative works of the Software;
   3. Reverse engineer, decompile, disassemble, extract, or otherwise attempt
      to derive the source code, algorithms, or internal logic of the Software;
@@ -21,8 +41,9 @@ WITHOUT EXPRESS WRITTEN PERMISSION FROM THE OWNER, YOU MAY NOT:
   5. Use the ATARS name, logo, or brand assets.
 
 Authorized end users receive only the limited, non-exclusive, non-transferable
-right to install and run the Software as described in the EULA that accompanies
-their copy. All rights not expressly granted are reserved by the Owner.
+right to install and run the Software as described in the licence that accompanies
+their copy - the EULA for the desktop application, or the package licence for the
+terminal edition. All rights not expressly granted are reserved by the Owner.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT
 SHALL THE OWNER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
