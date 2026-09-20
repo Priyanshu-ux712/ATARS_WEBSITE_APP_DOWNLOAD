@@ -1,0 +1,11 @@
+Every saved analysis can now produce a Certificate of Verified Analysis: one page
+stating what was in the file, what was done to it, and whether the numbers still
+match the data. Each sheet carries a signed QR code, and ATARS can read those codes
+back — from the PDF or from a photo of a printed page — and re-check them against the
+data itself. A certificate that has been edited stops verifying.
+
+Also fixed in this update:
+• True/False columns no longer crash the report
+• .pkl files open again, through a loader that refuses unsafe pickles
+• Nested JSON loads as the table inside it, instead of one unusable column
+• "Save as" keeps every sheet, including the empty ones

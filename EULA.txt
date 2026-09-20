@@ -6,22 +6,9 @@ Copyright (c) 2026 Priyanshu Kumar. All Rights Reserved.
 By installing or using ATARS you agree to these terms. If you do not agree,
 do not install the software.
 
-0. WHAT THIS AGREEMENT COVERS. This EULA governs the ATARS desktop application,
-   however you obtained it - the Windows installer (ATARS-Setup.exe) or the
-   Microsoft Store package. A Store installation is additionally subject to the
-   Microsoft Standard Application License Terms, and Microsoft handles its
-   download, installation and updates.
-
-   This EULA does NOT govern the terminal edition ("pip install atars"). That is
-   a separate, deliberately limited product with its own licence file inside the
-   package, and different terms - see atars.netlify.app/terminal.html.
-
 1. LICENSE GRANT. You are granted a limited, non-exclusive, non-transferable
    license to install and use ATARS on devices you control, for your own data
-   analysis. The application is currently supplied free of charge, with every
-   feature included and no account required. If paid tiers are introduced, the
-   terms of the tier you acquire will apply in addition to this agreement, and
-   any charge will be disclosed before you incur it.
+   analysis, per the license tier you purchased (single-user or company).
 
 2. OWNERSHIP. ATARS is licensed, not sold. Priyanshu Kumar retains all right,
    title and interest in the software, its code, algorithms, design and brand.
@@ -34,9 +21,7 @@ do not install the software.
 4. YOUR DATA. ATARS processes your data locally on your own machine. Your
    datasets are never uploaded to the publisher. If you connect your own AI
    API key, data you choose to analyse with AI is sent to YOUR chosen AI
-   provider under that provider's terms. You retain full ownership of your
-   datasets and of every report, chart and file ATARS produces from them; the
-   publisher claims no interest in your data or your output.
+   provider under that provider's terms.
 
 5. NO WARRANTY. The software is provided "AS IS" without warranty of any
    kind. Analytical results are provided to assist, not replace, your own
